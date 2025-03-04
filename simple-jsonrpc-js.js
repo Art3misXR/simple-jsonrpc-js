@@ -495,6 +495,7 @@
 
             xhr.open(rpc_config.method, rpc_url, true);
             xhr.setRequestHeader('Content-type', rpc_config['content-type']);
+            if ( 'authorization' in rpc_config ) xhr.setRequestHeader("Authorization", rpc_config['authorization']);
             xhr.send(_msg);
         };
 
