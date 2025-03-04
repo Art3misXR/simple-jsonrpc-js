@@ -10,7 +10,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jershell/simple-jsonrpc-js.git"
+    "url": "https://github.com/Art3misXR/simple-jsonrpc-js.git"
+    
   },
   "keywords": [
     "jsonrpc",
